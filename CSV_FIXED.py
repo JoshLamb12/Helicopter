@@ -7,9 +7,9 @@ from os.path import exists
 
 start_time = time.time()
 
-path = "E:\Coding\9_9_2021" #FOLDER PATH
+path = r"C:\Users\joshl\Documents\Rowan\helicoptor coding\090221-simdata" #FOLDER PATH
 print(path)
-path_to_file = path + "\9_9_2021_Categorized.csv" #FILE PATH
+path_to_file = path + "\9_2_2021_Categorized.csv" #FILE PATH
 file_exists = exists(path_to_file)
 print(file_exists)
 
